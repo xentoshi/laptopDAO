@@ -1,25 +1,30 @@
-import logo from './logo.svg';
+import React, { Suspense, useRef} from 'react';
+import { Canvas } from "@react-three/fiber";
 import './App.css';
 
-function App() {
+function Model (props) {
+  const group = useRef()
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <group ref={group} {...props} dispose={null}>
+
+    </group>
+  )
+}
+
+
+export default function App() {
+  return (
+    <Canvas dpr={[1, 2]} camera={{ position: [-10, 0, -25], fov: 35 }}>
+      <pointLight position={[10, 10, 10]} intensity={1.5} />
+      <Suspense fallback={null}>
+        <group rotation={[0, Math.PI, 0]}>
+          <Model />
+        </group>
+      </Suspense>
+    </Canvas>
   );
 }
 
-export default App;
+
