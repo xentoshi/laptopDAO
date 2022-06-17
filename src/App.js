@@ -1,5 +1,6 @@
+import * as THREE from 'three'
 import React, { Suspense, useRef} from 'react';
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from '@react-three/fiber';
 import { Html, useGLTF } from '@react-three/drei'
 import './App.css';
 
@@ -8,6 +9,14 @@ function Model (props) {
   // Load the model
   const { nodes, materials } = useGLTF("/mac-draco.glb");
   // Make it float here
+  useFrame((state) => {
+    const t = state.clock.getElapsedTime()
+    group.current.rotation.x = THREE.MathUtils.lerp(group.current.rotation.x, Math.cos(t / 2) / 10 + 0.25, 0.1)
+    group.current.rotation.y = THREE.MathUtils.lerp(group.current.rotation.y, Math.sin(t / 4) / 10, 0.1)
+    group.current.rotation.z = THREE.MathUtils.lerp(group.current.rotation.z, Math.cos(t / 4) / 20, 0.1 )
+    group.current.rotation.y = THREE.MathUtils.lerp(group.current.rotation.y, (-5 + Math.sin(t)) / 5, 0.1)
+
+  })
   return (
     <group ref={group} {...props} dispose={null}>
       <group rotation-x={-0.425} position={[0, -0.04, 0.41]}>
