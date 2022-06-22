@@ -2,8 +2,8 @@ import * as THREE from 'three'
 import React, { Suspense, useRef} from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Html, useGLTF, ContactShadows, OrbitControls } from '@react-three/drei'
-import './App.css';
-import HeroPage from './HeroPage'
+import HeroPage from './Page'
+import './index.css'
 
 function Model (props) {
   const group = useRef()
