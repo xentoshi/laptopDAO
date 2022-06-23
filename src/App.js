@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import React, { Suspense, useRef} from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Html, useGLTF, ContactShadows, OrbitControls } from '@react-three/drei'
-import HeroPage from './Page'
+import Page from './Page'
 import './index.css'
 
 function Model (props) {
@@ -28,7 +28,7 @@ function Model (props) {
             <Html className="content" rotation-x={-Math.PI / 2} position={[0, 0.05, -0.09]} transform occlude>
               <div className="wrapper">
                 {/** Here comes the page*/}
-                <HeroPage />
+                <Page />
               </div>
             </Html>
           </mesh>
