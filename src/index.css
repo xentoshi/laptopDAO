@@ -12,8 +12,8 @@ main,
   height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 32px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-size: 28px;
+  font-family: inter;
 }
 
 body {
