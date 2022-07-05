@@ -12,10 +12,16 @@ export default function Example() {
       <div className="logo">laptopDAO</div>
         <img src={PIKA} alt="pika" width="315px" />
         <div className="text">
-          <p><button className="signup-button"><a href={FORM} target="_blank" rel="noopener noreferrer"> ⚡ sign up for early access ⚡</a></button></p>
+          <div>
+            <button className="signup-button">
+              <a href={FORM} target="_blank" rel="noopener noreferrer"> 
+              ⚡ sign up for early access ⚡
+              </a>
+              </button></div>
         <br></br>
-        🏄‍♂️ coming soon on <a href={REALMS} target="_blank" rel="noopener noreferrer">solana</a><br></br>
          🌴 follow us on <a href={TWITTER_LINK} target="_blank" rel="noopener noreferrer">twitter</a>
+        <br></br>
+        🏄‍♂️ coming soon on <a href={REALMS} target="_blank" rel="noopener noreferrer">solana</a>
         </div>
         <div className="footer"> model created in react three fiber by <a href={DRCMDA} target="_blank" rel="noopener noreferrer">@drcmda</a></div>
       </div>
