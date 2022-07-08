@@ -15,7 +15,7 @@ export default function Example() {
           <div>
             <button className="signup-button">
               <a href={FORM} target="_blank" rel="noopener noreferrer"> 
-              ⚡ sign up for early access ⚡
+              ⚡sign up for early access⚡
               </a>
               </button></div>
         <br></br>
