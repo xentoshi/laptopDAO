@@ -1,5 +1,5 @@
 
-const REALMS = "https://realms.today/dao/6JzsaQYYi4vGTZogASscZsBALWbSbJU9tMDRtq6nbeff"
+const REALMS = "https://realms.today/dao/laptopDAO"
 const PIKA = "https://media3.giphy.com/media/slVWEctHZKvWU/giphy.gif?cid=ecf05e47i3advtf7c6ui7u11afaqgxo3a95781220w42eve7&rid=giphy.gif&ct=g"
 const FORM = "https://airtable.com/shrG4Ovb6HqQAZt19"
 const DRCMDA = "https://github.com/drcmda"
