@@ -12,7 +12,7 @@ export default function Example() {
   return (
     <div>
       <div className="main">
-        <div className="logo">(o˘◡˘o)	</div>
+        <div className="logo">laptopDAO	</div>
               <a href={docs} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
               ⚡ wtf ⚡
