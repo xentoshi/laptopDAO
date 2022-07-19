@@ -13,14 +13,14 @@ export default function Example() {
     <div>
       <div className="main">
         <div className="logo">(o˘◡˘o)	</div>
-              <a href={form} target="_blank" rel="noopener noreferrer"> 
-              <button className="signup-button">
-              ⚡ apply ⚡
-              </button>
-              </a>
               <a href={docs} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
-              🎁 wtf 🎁
+              ⚡ wtf ⚡
+              </button>
+              </a>
+              <a href={form} target="_blank" rel="noopener noreferrer"> 
+              <button className="signup-button">
+              🎁 apply 🎁 
               </button>
               </a>
         </div>
