@@ -13,6 +13,7 @@ export default function Example() {
     <div>
       <div className="main">
         <div className="logo">laptopDAO	</div>
+        <p className="hint">try to move laptop</p>
               <a href={docs} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
               ⚡ wtf ⚡

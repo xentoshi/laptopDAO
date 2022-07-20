@@ -44,14 +44,18 @@ body {
 
 .logo {
   letter-spacing: 0.3mm;
-  margin: 10px;
+  margin: 8px;
   text-align: left;
-  font-size: 15px;
+  font-size: 20px;
   display: flex;
   justify-content: left;
   font-weight: 300;
 }
 
+.hint {
+  margin: 8px;
+  font-size: 12px;
+}
 
 img {  
   user-select: none;
@@ -80,7 +84,7 @@ a:link, a:visited {
   justify-content: center;
   line-height: 1.25;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 10px;
   min-height: 3rem;
   padding: 7px;
   position: relative;
