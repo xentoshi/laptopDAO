@@ -13,7 +13,7 @@ export default function Example() {
     <div>
       <div className="main">
         <div className="logo">laptopDAO	</div>
-        <p className="hint">Buy a laptop for a kid. ⚡  </p>
+        <p className="hint">Buy a laptop for a kid ⚡  </p>
         <br></br>
               <a href={docs} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
