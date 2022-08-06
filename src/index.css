@@ -119,8 +119,8 @@ a:link, a:visited {
 .twitter-logo {
   width: 27px;
   height: 27px;
-  margin-left: 137px;
-  margin-top: 10px;
+  margin-left: 135px;
+  margin-top: 0px;
   margin-right: 10px;
 }
 
@@ -145,3 +145,12 @@ a:link, a:visited {
   margin-top: 11mm;
 }
 
+.box {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.connect {
+  margin: 8px;
+  font-size: 12px;
+  text-align: center;
+}

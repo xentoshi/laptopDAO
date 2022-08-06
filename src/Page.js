@@ -13,18 +13,15 @@ export default function Example() {
     <div>
       <div className="main">
         <div className="logo">laptopDAO	</div>
-        <p className="hint">try to move laptop</p>
+        <p className="hint">Buy a laptop for a kid. ⚡  </p>
+        <br></br>
               <a href={docs} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
-              ⚡ wtf ⚡
-              </button>
-              </a>
-              <a href={form} target="_blank" rel="noopener noreferrer"> 
-              <button className="signup-button">
-              🎁 apply 🎁 
+              🎁 donate 🎁 
               </button>
               </a>
         </div>
+        <p className="connect">let's connect</p>
             {/*Socials*/}
             <a href={twitterLink} target="_blank" rel="noreferrer">
             <img alt="Twitter Logo" className="twitter-logo" src="twitter-logo.svg" />
@@ -32,7 +29,7 @@ export default function Example() {
             <a href={discordInvite} target="_blank" rel="noreferrer">
             <img alt="Discord Logo" className="discord-logo" src="discord-logo.svg" />
             </a>
-            <iframe title="pika" src={pika} width="140" height="140" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <iframe title="pika" src={pika} width="145" height="145" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <div className="footer"> laptop model created by <a href={drcmda} target="_blank" rel="noopener noreferrer">@drcmda</a></div>
       </div>
   )

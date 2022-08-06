@@ -12,7 +12,7 @@ function Model(props) {
   useFrame((state) => {
     const t = state.clock.getElapsedTime()
     group.current.rotation.x = THREE.MathUtils.lerp(group.current.rotation.x, Math.cos(t / 2) / 10 + 0.25, 0.1)
-    group.current.rotation.y = THREE.MathUtils.lerp(group.current.rotation.y, Math.sin(t / 4) / 10, 0.1)
+    group.current.rotation.y = THREE.MathUtils.lerp(group.current.rotation.y, Math.sin(t / 4) / 20, 0.1)
     group.current.rotation.z = THREE.MathUtils.lerp(group.current.rotation.z, Math.sin(t / 4) / 20, 0.1)
     group.current.position.y = THREE.MathUtils.lerp(group.current.position.y, (-5 + Math.sin(t)) / 5, 0.1)
   })
@@ -45,7 +45,7 @@ function Model(props) {
 
 export default function App() {
   return (
-    <Canvas dpr={[1, 2]} camera={{ position: [-10, 0, -25], fov: 33 }}>
+    <Canvas dpr={[1, 2]} camera={{ position: [-10, 0, -25], fov: 22 }}>
       <pointLight position={[10, 10, 10]} intensity={1.5} />
       <Suspense fallback={null}>
         <group rotation={[0, Math.PI, 0]}>
