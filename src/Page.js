@@ -29,7 +29,7 @@ export default function Example() {
             <a href={discordInvite} target="_blank" rel="noreferrer">
             <img alt="Discord Logo" className="discord-logo" src="discord-logo.svg" />
             </a>
-            <iframe title="pika" src={pika} width="145" height="145" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <iframe title="pika" src={pika} width="140" height="140" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
         <div className="footer"> laptop model created by <a href={drcmda} target="_blank" rel="noopener noreferrer">@drcmda</a></div>
       </div>
   )
