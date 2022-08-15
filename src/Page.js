@@ -2,7 +2,7 @@
 const docs = "https://laptopdao.notion.site/laptopDAO-3c90d35d918f4172bebbd8d3034b312c"
 const drcmda = "https://github.com/drcmda"
 const pika = "https://giphy.com/embed/67KsrjDg2bUWI5uyvB"
-const discordInvite = "https://discord.gg/n9jcxqwe";
+const discordInvite = "https://discord.gg/zrKz8t3p3j";
 
 const twitterHandle = "laptopDAO";
 const twitterLink = `https://twitter.com/${twitterHandle}`;
