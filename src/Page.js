@@ -16,11 +16,10 @@ export default function Example() {
         <br></br>
               <a href={docs} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
-              🎁 donate 🎁 
+              🎁 apply 🎁 
               </button>
               </a>
         </div>
-        <p className="connect">let's connect</p>
             {/*Socials*/}
             <a href={twitterLink} target="_blank" rel="noreferrer">
             <img alt="Twitter Logo" className="twitter-logo" src="twitter-logo.svg" />
