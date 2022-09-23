@@ -1,5 +1,6 @@
 
-const docs = "https://laptopdao.notion.site/laptopDAO-3c90d35d918f4172bebbd8d3034b312c"
+//const docs = "https://laptopdao.notion.site/laptopDAO-3c90d35d918f4172bebbd8d3034b312c"
+const form = "https://airtable.com/shrG4Ovb6HqQAZt19"
 const drcmda = "https://github.com/drcmda"
 const pika = "https://giphy.com/embed/67KsrjDg2bUWI5uyvB"
 const discordInvite = "https://discord.gg/zrKz8t3p3j";
@@ -14,7 +15,7 @@ export default function Example() {
         <div className="logo">laptopDAO	</div>
         <p className="hint">Buy a laptop for a kid ⚡  </p>
         <br></br>
-              <a href={docs} target="_blank" rel="noopener noreferrer"> 
+              <a href={form} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
               🎁 apply 🎁 
               </button>
