@@ -17,7 +17,7 @@ export default function Example() {
         <br></br>
               <a href={docs} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
-              contribute
+              🎁contribute🎁
               </button>
               </a>
         </div>
