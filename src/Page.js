@@ -1,5 +1,6 @@
 
 const docs = "https://laptopdao.notion.site/laptopDAO-3c90d35d918f4172bebbd8d3034b312c"
+const nation = "https://nation.io/a/laptopdao"
 //const form = "https://airtable.com/shrG4Ovb6HqQAZt19"
 const drcmda = "https://github.com/drcmda"
 const pika = "https://giphy.com/embed/67KsrjDg2bUWI5uyvB"
@@ -14,21 +15,20 @@ export default function Example() {
       <div className="main">
         <div className="logo">laptopDAO	</div>
         <p className="hint">Buy a laptop for a kid ⚡  </p>
-        <br></br>
-              <a href={docs} target="_blank" rel="noopener noreferrer"> 
+        <br/>
+              <a href={nation} target="_blank" rel="noopener noreferrer"> 
               <button className="signup-button">
-              🎁contribute🎁
+              join
               </button>
               </a>
         </div>
+        <iframe title="pika" src={pika} width="140" height="140" frameBorder="0" class="pika" allowFullScreen></iframe>
+        <div className="socials">
             {/*Socials*/}
-            <a href={twitterLink} target="_blank" rel="noreferrer">
-            <img alt="Twitter Logo" className="twitter-logo" src="twitter-logo.svg" />
-            </a>
-            <a href={discordInvite} target="_blank" rel="noreferrer">
-            <img alt="Discord Logo" className="discord-logo" src="discord-logo.svg" />
-            </a>
-            <iframe title="pika" src={pika} width="140" height="140" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <a href={twitterLink} className="twitter" target="_blank" rel="noopener noreferrer">🐦</a>
+            <a href={discordInvite} className="discord" target="_blank" rel="noopener noreferrer">👾</a>
+            <a href={docs} className="docs" target="_blank" rel="noopener noreferrer">📚</a>
+            </div>
         <div className="footer"> laptop model created by <a href={drcmda} target="_blank" rel="noopener noreferrer">@drcmda</a></div>
       </div>
   )

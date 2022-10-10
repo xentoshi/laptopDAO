@@ -116,21 +116,10 @@ a:link, a:visited {
   transform: translateY(0);
 }
 
-.twitter-logo {
-  width: 27px;
-  height: 27px;
-  margin-left: 135px;
-  margin-top: 12px;
-  margin-right: 10px;
-}
 
-.discord-logo {
-  width: 21px;
-  height: 26px;
-}
-
-.giphy-embed {
+.pika {
   top: 0px;
+  right: 0px;
   position: absolute;
   pointer-events: none;
   cursor: none;
@@ -153,4 +142,14 @@ a:link, a:visited {
   margin: 8px;
   font-size: 12px;
   text-align: center;
+}
+
+.socials {
+display: flex;
+justify-content: center;
+}
+
+.socials  .twitter, .socials .discord, .socials .docs {
+  letter-spacing: 7px;
+  margin-top: 12px;
 }
