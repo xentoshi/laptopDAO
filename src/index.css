@@ -46,7 +46,7 @@ body {
   letter-spacing: 0.3mm;
   margin: 8px;
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   justify-content: left;
   font-weight: 300;
@@ -54,7 +54,8 @@ body {
 
 .hint {
   margin: 8px;
-  font-size: 12px;
+  font-size: 15px;
+  letter-spacing: 0.1mm;
 }
 
 img {  
@@ -87,14 +88,13 @@ a:link, a:visited {
   margin-top: 10px;
   min-height: 3rem;
   padding: 7px;
-  position: relative;
   text-decoration: none;
   transition: all 250ms;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  width: 230px;
+  width: 200px;
 }
 
 .signup-button:hover,
@@ -152,4 +152,5 @@ justify-content: center;
 .socials  .twitter, .socials .discord, .socials .docs {
   letter-spacing: 7px;
   margin-top: 12px;
+
 }
