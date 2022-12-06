@@ -22,7 +22,7 @@ export default function Example() {
               </button>
               </a>
         </div>
-        <iframe title="pika" src={pika} width="100" height="100" frameBorder="0" class="pika" allowFullScreen></iframe>
+        <iframe title="pika" src={pika} width="140" height="140" frameBorder="0" class="pika" allowFullScreen></iframe>
         <div className="socials">
             {/*Socials*/}
             <a href={twitterLink} className="twitter" target="_blank" rel="noopener noreferrer">🐦</a>
