@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.6.4",
+    "@react-spring/parallax": "^9.6.1",
     "@react-three/drei": "^9.13.0",
     "@react-three/fiber": "^8.0.24",
     "@testing-library/jest-dom": "^5.16.4",
