@@ -5,7 +5,9 @@ body {
   font-family: Manrope;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background-color: rgb(22, 22, 22);
+  color: rgb(236, 236, 236);
+  font-size: 2vw;
 }
 
 code {
@@ -18,25 +20,19 @@ img {
 
 h2 {
   text-align: center;
-  font-family: Manrope;
   font-weight: 800;
-  color: white;
   font-size: 8vw;
 }
 
 h3 {
   text-align: center;
-  font-family: Manrope;
   font-weight: 400;
-  color: white;
   font-size: 5vw;
 }
 
 p {
   text-align: center;
-  font-family: Manrope;
   font-weight: 300;
-  color: white;
   font-size: 4vw;
   margin: 2vh;
 }
@@ -46,9 +42,6 @@ a:link, a:visited {
   text-decoration: none;
 }
 
-a:hover a:active { 
-  color: yellow;
- }
 
 .logo {
   margin-top: 4vh;
@@ -62,4 +55,20 @@ a:hover a:active {
   margin-top: 5vh;
   margin-right: 5vh;
   text-align: right;
+}
+
+  
+table {
+  border: 1px solid rgb(255, 255, 255);
+  width: 800px;
+  height: 200px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 40px;
+}
+
+  
+td {
+  text-align: center;
 }
