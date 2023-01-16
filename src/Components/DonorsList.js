@@ -1,4 +1,4 @@
-export default function DonatorsList () {
+export default function DonorsList () {
 
     const data = [
         {
@@ -14,7 +14,7 @@ export default function DonatorsList () {
             <tr>
               <th>Name</th>
               <th>Twitter</th>
-              <th># of laptops donated</th>
+              <th># of laptops</th>
             </tr>
             {data.map((val, key) => {
               return (

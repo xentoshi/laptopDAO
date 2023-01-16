@@ -1,4 +1,5 @@
-import DonatorsList from './Components/DonatorsList'
+import DonorsList from './Components/DonorsList'
+import FAQ from './Components/FAQ';
 const DISCORD_INVITE = "https://discord.gg/YDQJXWzvC5"
 const TWITTER_LINK = "https://twitter.com/laptopDAO"
 
@@ -20,19 +21,19 @@ function App() {
           <br></br>
           <h3> 🎁 
           <br></br>
-          Donators </h3>
-          <DonatorsList/>
+          Donors </h3>
+          <DonorsList/>
           <p>Join us on <a href={DISCORD_INVITE} target="_blank" rel="noopener noreferrer"> discord</a> and <a href={TWITTER_LINK} target="_blank" rel="noopener noreferrer"> twitter</a> and let's talk there.  </p>
           <br></br>
           <h3>
              🧸 
             <br></br>Motivation</h3>
-          <p> Random person bought laptop to me when I couldn’t afford one, that changed my life so I set on a mission to spread that philosophy further. 
-          <br></br>
+          <p> Random person bought laptop to me when I couldn’t afford one, that changed my life so I set on a mission to spread that philosophy further. </p>
           <p>Magic can happen when there is someone believing in you. </p>
-         </p>
+          <h3>💞</h3>
+         <FAQ />
+         <h3>🍀</h3>
       </container>
-
     </div>
     
   );
