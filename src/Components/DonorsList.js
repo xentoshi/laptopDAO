@@ -2,8 +2,13 @@ export default function DonorsList () {
 
     const data = [
         {
+        name: "heyayushh", 
+        twitter: <a href="https://twitter.com/heyayushh" target="_blank" rel="noopener noreferrer" >@heyayushh</a>,
+        numberOfLaptops: "3",
+       },
+        {
             name: "javitoshi", 
-            twitter: "@javitoshi", 
+            twitter: <a href="https://twitter.com/javitoshi" target="_blank" rel="noopener noreferrer" >@javitoshi</a>, 
             numberOfLaptops: "2",
         },
     ];
