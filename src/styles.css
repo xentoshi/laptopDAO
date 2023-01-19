@@ -135,12 +135,14 @@ td {
   cursor: pointer;
   border-radius: 10px;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .answer {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 600px) {
