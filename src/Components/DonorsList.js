@@ -15,16 +15,14 @@ export default function DonorsList () {
     
      return (
         <div>
-            <table styleName>
+            <table>
             <tr>
-              <th>Name</th>
               <th>Twitter</th>
               <th># of laptops</th>
             </tr>
             {data.map((val, key) => {
               return (
                 <tr key={key}>
-                  <td>{val.name}</td>
                   <td>{val.twitter}</td>
                   <td>{val.numberOfLaptops}</td>
                 </tr>

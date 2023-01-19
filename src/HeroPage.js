@@ -28,27 +28,23 @@ function App() {
       </a>
       <h3>↓</h3>
       <h3>What is laptopDAO?</h3> 
-      <p> laptopDAO is a group of friends connecting curious kids who cannot afford a laptop to those who can get them one. We are providing grants for laptops to proven builders from our community. </p>
+      <p> laptopDAO is a group of friends connecting curious kids who cannot afford a laptop to those who can get them one. </p>
           <br></br>
       <h3>How we do it?</h3> 
-      <p>This is a young non-profit, structure is yet to be developed. For trust reasons, we do things manually. You can review our <a href={DOCS_LINK} target="_blank" rel="noopener noreferrer">documentation</a> for more info. </p>
-          <h3> 🎁 
-          <br></br>
-          Donors </h3>
+      <p>We do things manually. This is a young non-profit, structure is yet to be developed.  You can review our <a href={DOCS_LINK} target="_blank" rel="noopener noreferrer">documentation</a> for more info. </p>
+      <h3> Donors </h3>
           <DonorsList/>
-          <br></br>
-          <h3>
-             🧸 
-            <br></br>Motivation</h3>
-          <p> Random person bought laptop to me when I couldn’t afford one, that changed my life so I set on a mission to spread that philosophy further. </p>
-          <p>Magic can happen when there is someone believing in you. </p>
-          <h3>💞</h3>
+          <a href={DISCORD_INVITE} target="_blank" rel="noopener noreferrer">
+            <button class="button-36" role="button">Donate ｡^‿^｡</button>
+          </a>
+
+      <h3>FAQ</h3>
          <FAQ />
-         <h3>
-            <a href={DISCORD_INVITE} target="_blank" rel="noopener noreferrer"> 👾 </a> 
-            <a href={TWITTER_LINK} target="_blank" rel="noopener noreferrer"> 🐦 </a>
-            <a href={DOCS_LINK} target="_blank" rel="noopener noreferrer">  📝  </a>
-         </h3>
+      <h2>
+        <a href={DISCORD_INVITE} target="_blank" rel="noopener noreferrer"> 👾 </a> 
+        <a href={TWITTER_LINK} target="_blank" rel="noopener noreferrer"> 🐦 </a>
+        <a href={DOCS_LINK} target="_blank" rel="noopener noreferrer">  📝  </a>
+      </h2>
       </container>
     </div>
     
