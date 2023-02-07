@@ -2,7 +2,7 @@ import DonorsList from './Components/DonorsList'
 import FAQ from './Components/FAQ';
 const DISCORD_INVITE = "https://discord.gg/YDQJXWzvC5"
 const TWITTER_LINK = "https://twitter.com/laptopDAO"
-const DOCS_LINK = "https://laptopdao.notion.site/laptopDAO-3c90d35d918f4172bebbd8d3034b312c"
+const DOCS_LINK = "https://laptopdao.gitbook.io/laptopdao/"
 
 
 
