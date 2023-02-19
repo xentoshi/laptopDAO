@@ -11,6 +11,11 @@ export default function DonorsList () {
             twitter: <a href="https://twitter.com/javitoshi" target="_blank" rel="noopener noreferrer" >@javitoshi</a>, 
             numberOfLaptops: "2",
         },
+        {
+          name: "aryan", 
+          twitter: <a href="https://twitter.com/_0xaryan" target="_blank" rel="noopener noreferrer" >@_0xaryan</a>, 
+          numberOfLaptops: "1",
+      }
     ];
     
      return (
