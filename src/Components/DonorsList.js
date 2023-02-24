@@ -7,8 +7,8 @@ export default function DonorsList () {
         numberOfLaptops: "3",
        },
         {
-            name: "javitoshi", 
-            twitter: <a href="https://twitter.com/javitoshi" target="_blank" rel="noopener noreferrer" >@javitoshi</a>, 
+            name: "smol coders", 
+            twitter: <a href="https://twitter.com/smolcoders" target="_blank" rel="noopener noreferrer" >@smolcoders</a>, 
             numberOfLaptops: "2",
         },
         {
